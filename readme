@@ -1,0 +1,10 @@
+run server with serve.py. (requires python 3)
+
+index.html file included to demonstrate issues.
+
+#1 Select scrolling issue
+A select element cannot be scrolled (via touchscreen).
+
+#2 Flex issue
+Property "gap" is not supported. This also applies to "grid-gap".
+gap property: https://developer.mozilla.org/en-US/docs/Web/CSS/gap

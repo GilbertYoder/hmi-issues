@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example Dropdown</title>
+</head>
+<body style="padding: 20px">
+    <p>Scroll Issue</p>
+    <p>The dropdown cannot be scrolled</p>
+    <select>
+        <option>Option1</option>
+        <option>Option2</option>
+        <option>Option3</option>
+        <option>Option4</option>
+        <option>Option5</option>
+        <option>Option6</option>
+        <option>Option7</option>
+        <option>Option8</option>
+        <option>Option9</option>
+        <option>Option10</option>
+        <option>Option11</option>
+        <option>Option12</option>
+        <option>Option13</option>
+        <option>Option14</option>
+        <option>Option15</option>
+        <option>Option16</option>
+        <option>Option17</option>
+        <option>Option18</option>
+        <option>Option19</option>
+        <option>Option20</option>
+        <option>Option21</option>
+        <option>Option22</option>
+        <option>Option23</option>
+        <option>Option24</option>
+        <option>Option25</option>
+        <option>Option26</option>
+        <option>Option27</option>
+        <option>Option28</option>
+        <option>Option29</option>
+        <option>Option30</option>
+        <option>Option31</option>
+        <option>Option32</option>
+        <option>Option33</option>
+        <option>Option34</option>
+        <option>Option35</option>
+        <option>Option36</option>
+        <option>Option37</option>
+        <option>Option38</option>
+        <option>Option39</option>
+        <option>Option40</option>
+    </select>
+    <p>Flex-Gap Issue (gap property)</p>
+    <p>There should be a gap between 1 and 2</p>
+    <style>
+        .box-container {
+            width: 100%;
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 50px; /* Not Supported on HMI */
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: coral;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <div class="box-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+    </div>
+</body>
+
+</html>
