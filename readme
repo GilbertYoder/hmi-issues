@@ -8,3 +8,5 @@ A select element cannot be scrolled (via touchscreen).
 #2 Flex issue
 Property "gap" is not supported. This also applies to "grid-gap".
 gap property: https://developer.mozilla.org/en-US/docs/Web/CSS/gap
+
+Our web-pages use a mix of mainly flexbox and some media queries to make the screens responsive.
